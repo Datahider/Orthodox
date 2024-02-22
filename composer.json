@@ -1,0 +1,20 @@
+{
+    "name": "vendor/orthodox",
+    "description": "Description of project Orthodox.",
+    "authors": [
+        {
+            "name": "Petros Ioannidis",
+            "email": "pio@pio.su"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "10.4.2"
+    },
+    
+    "autoload": {
+        "psr-4": {
+            "losthost\\Orthodox\\": "src/",
+            "losthost\\Orthodox\\test\\": "test/"
+        }
+    }
+}
